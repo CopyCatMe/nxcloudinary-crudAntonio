@@ -11,7 +11,7 @@ const nextConfig = {
   experimental: {
     serverActions: {
       // By default, the maximum size of the request body sent to a Server Action is 1MB
-      bodySizeLimit: '4mb',
+      bodySizeLimit: '10mb',
     },
   },
 }

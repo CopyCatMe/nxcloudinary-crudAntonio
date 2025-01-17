@@ -49,8 +49,9 @@ export async function imgCreate(prevState, formData) {
       invalidate: true,
       asset_folder: FOLDER,
       public_id: path.parse(file.name).name,
-      aspect_ratio: "1.62",
-      width: 600,
+      aspect_ratio: "1",
+      width: 800,
+      height: 800,
       crop: "fill",
       gravity: "center"
     })
